@@ -9,12 +9,14 @@ body, html {
     margin: 0 auto;
     padding: 20px;
     height: 100%;
-    background-image: url('background.jpg');
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('image/qa.webp');
     background-size: cover;
     background-position: center;
 }
 
-.header {
+.header, .footer {
     padding: 20px;
     background-color: #4b0202;
 }
@@ -26,13 +28,9 @@ body, html {
 
 .body {
     padding: 20px;
+    text-align: center;
 }
 
 .footer {
-    padding: 20px;
-    background-color: #4b0202;
     color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
